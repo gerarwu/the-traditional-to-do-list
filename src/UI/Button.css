@@ -1,0 +1,20 @@
+.Button {
+    width: 100%;
+    background-color: rgb(6, 152, 219);
+    border: 1px solid rgb(6, 77, 110);
+    box-shadow: 1px 1px 2px #555;
+    outline: 0;
+    height: 1.9em;
+}
+
+.Button:active{
+    background-color: rgb(8, 106, 151);
+    color: #fff;
+}
+
+.Button:disabled{
+    background-color: rgb(118, 201, 240);
+    border: rgb(118, 201, 240);
+    box-shadow: 0 0 0;   
+    cursor: not-allowed; 
+}

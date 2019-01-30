@@ -1,0 +1,9 @@
+
+.TaskList ul {
+    list-style: none;
+}
+
+.TaskList .item {
+    background-color: rgb(180, 180, 180);    
+    text-align: left;
+}
